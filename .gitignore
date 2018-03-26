@@ -5,4 +5,4 @@
 /.idea
 /.ipynb_checkpoints
 *.pyc
-fonts/
+__pycache__/
