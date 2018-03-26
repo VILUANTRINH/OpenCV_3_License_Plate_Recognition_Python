@@ -41,12 +41,6 @@ def extractValue(imgOriginal):
 
 ###################################################################################################
 def maximizeContrast(imgGrayscale):
-
-    height, width = imgGrayscale.shape
-
-    imgTopHat = np.zeros((height, width, 1), np.uint8)
-    imgBlackHat = np.zeros((height, width, 1), np.uint8)
-
     structuringElement = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
 
     imgTopHat = cv2.morphologyEx(imgGrayscale, cv2.MORPH_TOPHAT, structuringElement)
