@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+/fonts/*/
+/outputs
+/test
+/.idea
+/.ipynb_checkpoints
+*.pyc
+fonts/

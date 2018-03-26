@@ -11,6 +11,8 @@ class PossiblePlate:
         self.imgPlate = None
         self.imgGrayscale = None
         self.imgThresh = None
+        self.isTwoRow = False
+        self.isPlate = False
 
         self.rrLocationOfPlateInScene = None
 

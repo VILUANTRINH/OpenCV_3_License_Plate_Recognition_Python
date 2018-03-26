@@ -10,6 +10,7 @@ class PossibleChar:
     # constructor #################################################################################
     def __init__(self, _contour):
         self.contour = _contour
+        self.isChar = True
 
         self.boundingRect = cv2.boundingRect(self.contour)
 
