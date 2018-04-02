@@ -6,11 +6,12 @@ The following video explains general process:
 https://www.youtube.com/watch?v=fJcl6Gw1D8k
 
 What has been added:
+- Char generation from real plate and char augmentation
 - Specific model to recognize Vietnam's motorbike plate
 - Use CNN model instead of KNN model
 - Add more constraints to increase results
 
-You also can see DocsAndPresentation folder
+You can also see DocsAndPresentation folder for more information
 
 ## Instruction
 To recognize character in an image
